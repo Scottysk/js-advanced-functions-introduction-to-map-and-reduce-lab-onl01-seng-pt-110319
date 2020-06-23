@@ -15,5 +15,5 @@ function mapToDouble(sourceArray) {
 
 
 function mapToSquare(sourceArray) {
-  
+  return sourceArray.map(num => num ** 2);
 }
