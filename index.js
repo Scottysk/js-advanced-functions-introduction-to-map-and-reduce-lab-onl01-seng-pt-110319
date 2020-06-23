@@ -5,7 +5,7 @@ function mapToNegativize(sourceArray) {
 
 
 function mapToNoChange(sourceArray) {
-  
+  return sourceArray;
 }
 
 
