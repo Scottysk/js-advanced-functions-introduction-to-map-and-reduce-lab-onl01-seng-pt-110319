@@ -17,3 +17,15 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   return sourceArray.map(num => num ** 2);
 }
+
+
+function reduceToTotal(sourceArray, startingPoint) {
+  
+}
+function reduceToAllTrue(sourceArray) {
+  
+}
+
+function reduceToAnyTrue(sourceArray) {
+  
+}
