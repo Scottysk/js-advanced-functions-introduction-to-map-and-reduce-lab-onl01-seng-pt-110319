@@ -1,5 +1,10 @@
+mapToNegativize(sourceArray)
 
-    mapToNegativize(sourceArray)
-    mapToNoChange(sourceArray)
-    mapToDouble(sourceArray)
-    mapToSquare(sourceArray)
+
+
+
+
+
+mapToNoChange(sourceArray)
+mapToDouble(sourceArray)
+mapToSquare(sourceArray)
