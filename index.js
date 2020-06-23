@@ -26,6 +26,7 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
   }
   return total;
 }
+
 function reduceToAllTrue(sourceArray) {
   return sourceArray.reduce(function(total, value) {
     if (total && value) {
@@ -37,5 +38,11 @@ function reduceToAllTrue(sourceArray) {
 }
 
 function reduceToAnyTrue(sourceArray) {
-  
+  return sourceArray.reduce(function(total, value) {
+    if (total && value) {
+      return true;
+    } else {
+      return false;
+    }
+  });
 }
