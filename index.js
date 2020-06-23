@@ -1,5 +1,5 @@
 function mapToNegativize(sourceArray) {
-  return sourceArray.map(num => * -1)
+  return sourceArray.map(num => num * -1);
 }
 
 
