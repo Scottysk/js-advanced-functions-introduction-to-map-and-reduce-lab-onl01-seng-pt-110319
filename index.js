@@ -10,7 +10,7 @@ function mapToNoChange(sourceArray) {
 
 
 function mapToDouble(sourceArray) {
-  
+  return sourceArray.map(num => num * -2);
 }
 
 
