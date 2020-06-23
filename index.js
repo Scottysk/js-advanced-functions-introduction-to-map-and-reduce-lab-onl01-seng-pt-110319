@@ -4,9 +4,12 @@ function mapToNegativize(sourceArray) {
 
 
 
+function mapToNoChange(sourceArray) {
+  
+}
 
 
 
-mapToNoChange(sourceArray)
+
 mapToDouble(sourceArray)
 mapToSquare(sourceArray)
