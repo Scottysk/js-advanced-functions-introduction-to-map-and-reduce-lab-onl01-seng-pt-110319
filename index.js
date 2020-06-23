@@ -1,4 +1,4 @@
-mapToNegativize(sourceArray)
+function mapToNegativize(sourceArray)
 
 
 
