@@ -27,7 +27,13 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
   return total;
 }
 function reduceToAllTrue(sourceArray) {
-  return sourceArray.reduce
+  return sourceArray.reduce(function(total, value) {
+    if (total && value) {
+      return true;
+    } else {
+      return false;
+    }
+  });
 }
 
 function reduceToAnyTrue(sourceArray) {
