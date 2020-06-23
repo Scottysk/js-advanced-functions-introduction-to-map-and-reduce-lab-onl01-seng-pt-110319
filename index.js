@@ -14,4 +14,6 @@ function mapToDouble(sourceArray) {
 }
 
 
-mapToSquare(sourceArray)
+function mapToSquare(sourceArray) {
+  
+}
